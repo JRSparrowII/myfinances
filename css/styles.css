@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f0f2f5;
+}
+
+body, input, button {
+    font-family: 'Poppins', sans-serif;
+}
+
 .conteudo-cabecalho{
     background-color:#5429cc;
     height: 300px;
+    font-family: 'Trebuchet MS';
 
 }
 
@@ -18,4 +27,43 @@
     display: flex; 
     justify-content: space-between;
     padding-top: 20px;
+}
+
+.conteudo-cabecalho .cabecalho-centro .btn{
+    background-color: #6933ff;
+    height: 48px;
+    width: 195px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.principal {
+    /* background-color: red; */
+    /* max-width: 1000px; */
+    padding-top: 32px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+
+.secundaria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: blue ; */
+    gap: 32px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+.item-card {
+    background-color: #fff;
+    /* padding: 28px 32px 28px 32px; */
+    padding: 44px 48px 44px 48px;
+    border-radius: 5px;
+
 }
