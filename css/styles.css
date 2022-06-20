@@ -13,9 +13,7 @@ body, input, button {
 }
 
 .conteudo-cabecalho{
-    background-color:#5429cc;
-    
-    
+    background-color:#29abcc;   
 }
 
 .conteudo-cabecalho .cabecalho-centro{
@@ -27,7 +25,7 @@ body, input, button {
 }
 
 .conteudo-cabecalho .cabecalho-centro .btn{
-    background-color: #6933ff;
+    background-color: #33bbff;
     height: 48px;
     width: 195px;
     border-radius: 5px;
@@ -46,6 +44,31 @@ body, input, button {
     padding-left: 16px;
     max-width: 1120px;
     margin: 0 auto;
+}
+
+/* RELATORIOS */
+
+.titulos {
+text-align: center;
+color: #BD2130;
+}
+
+.principal-ajustada{
+  /* background-color: red; */
+  /* max-width: 1000px; */
+  padding-top: 72px;
+  padding-right: 36px;
+  padding-bottom: 72px;
+  padding-left: 36px;
+  max-width: 1500px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.cabecalho-ativo-passivo{
+  color: white;
+  text-align: center;
+  font-size: 24px;  
 }
 
 .secundaria {
@@ -81,3 +104,155 @@ body, input, button {
     background-color: #33cc95;
     color: #fff;
 }
+
+.conteudo-tabela {
+    margin-top: 44px;
+}
+
+.conteudo-tabela table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+}
+
+.conteudo-tabela table thead th  {
+    color: #969696;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* background-color: aqua; */
+    padding: 16px 32px 16px 32px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.conteudo-tabela table tbody td  {
+    background-color: #fff;    
+    padding: 16px 32px 16px 32px;
+    font-size: 16px;
+    color: #363f5f;    
+}
+
+.conteudo-tabela table .cor-entrada {
+    color: #33cc95;
+}
+
+.conteudo-tabela table .cor-saida {
+    color: #e52e4d;
+}
+
+
+/* HEADER */
+.navbar-brand img {
+    width: 500px;
+  }
+
+  .blackbtn {
+    background-color: #155724;
+    color: #BD2130;
+  }
+  
+  #main-title {
+    text-align: center;
+    margin: 55px 0 50px;
+  }
+  
+  /* HOME */
+  #contacts-table {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #contacts-table thead {
+    color: #FFF;
+    background-color: #007BFF;
+  }
+  
+  .col-id {
+    font-weight: bold;
+  }
+  
+  .actions {
+    text-align: right;
+    width: 150px;
+  }
+  
+  .actions i {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+  .check-icon {
+    color: #1E7E34;
+  }
+  
+  .edit-icon {
+    color: #007BFF;
+  }
+  
+  .delete-form {
+    display: inline-block;
+  }
+  
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .delete-icon {
+    color: #BD2130;
+  }
+  
+  #empty-list-text {
+    text-align: center;
+  }
+  
+  #msg {
+    color: #155724;
+    background-color: #D4EDDA;
+    border: 1px solid #C3E6CB;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+  } */
+  
+  /* SHOW / CONTATO INDIVIDUAL */
+  #view-contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  #back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+  }
+  
+  #back-link {
+    border: 1px solid #007BFF;
+    color: #007BFF;
+    border-radius: 4px;
+    padding: 5px;
+  } */
+  
+  #back-link:hover {
+    text-decoration: none;
+  }
+  
+  /* CREATE */
+  #create-form,
+  #edit-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  #main-title {
+    text-align: right;
+    margin: 55px 0 50px;
+  }
