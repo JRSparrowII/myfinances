@@ -1,21 +1,21 @@
 <?php  
-	// $conexao_bd = new mysqli("localhost",
-	// "root","","myfinances");
+	$conexao_bd = new mysqli("localhost",
+	"root","","myfinances");
 
-	// if ($conexao_bd == true) {
-	// 	// echo "Conectado com sucesso";
-	// } else {
-	// 	echo "Conexão falhou";
-	// }
+	if ($conexao_bd == true) {
+		// echo "Conectado com sucesso";
+	} else {
+		echo "Conexão falhou";
+	}
 
-	// $sql = "SELECT * FROM movimentacao";
+	$sql = "SELECT * FROM movimentacao";
 
-	// $result = mysqli_query($conexao_bd,$sql);
+	$result = mysqli_query($conexao_bd,$sql);
 
-	// // [{ nome: prisco, movimentcao},{}]
-	// foreach ($result as $valor) {
-	// 	$registros[] = $valor;
-	// }
+	// [{ nome: prisco, movimentcao},{}]
+	foreach ($result as $valor) {
+		$registros[] = $valor;
+	}
 
 	// echo json_encode($registros);
 
@@ -154,7 +154,7 @@
 			        	</div>
 
 						
-						<select >
+						<select style="display:none">
 							
 							
 							<option value="">Selecione</option>
@@ -164,7 +164,7 @@
 							<?php endforeach ?>
 							
 						</select>
-
+								
 			        	<div class="input">
 		      				<input type="text" placeholder="Categoria" name="categoria">
 		      			</div>
