@@ -13,9 +13,7 @@ body, input, button {
 }
 
 .conteudo-cabecalho{
-    background-color:#5429cc;
-    
-    
+    background-color:#5429cc;   
 }
 
 .conteudo-cabecalho .cabecalho-centro{
@@ -52,6 +50,31 @@ body, input, button {
     padding-left: 16px;
     max-width: 1120px;
     margin: 0 auto;
+}
+
+/* RELATORIOS */
+
+.titulos {
+text-align: center;
+color: #BD2130;
+}
+
+.principal-ajustada{
+  /* background-color: red; */
+  /* max-width: 1000px; */
+  padding-top: 72px;
+  padding-right: 36px;
+  padding-bottom: 72px;
+  padding-left: 36px;
+  max-width: 1500px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.cabecalho-ativo-passivo{
+  color: white;
+  text-align: center;
+  font-size: 24px;  
 }
 
 .secundaria {
