@@ -96,43 +96,53 @@
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Cadastrar transação</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="form-body-input">
-                    <div class="input">
-                        <input type="text" placeholder="Descrição da transação">
-                    </div>
-                    <div class="input">
-                        <input type="number" placeholder="Valor">
-                    </div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Cadastrar transação</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-body-input">
+                        <div class="input">
+                            <input type="text" placeholder="Descrição da transação">
+                        </div>
+                        <div class="input">
+                            <input type="number" placeholder="Valor">
+                        </div>
 
-                    <div class="radio">
-                        <label for="entrada">Entrada</label>
-                        <input type="radio" id="entrada" name="tipo_movimentacao">
+                        <div class="radio">
+                                <input type="radio" id="entrada" name="tipo_movimentacao" value="entrada">                                
+                                <label for="entrada">
+                                    <img src="./assets/income.svg" alt="">
+                                    <span>Entrada</span>                                
+                                </label>                        
                         
-                        <label for="saida">Saída</label>
-                        <input type="radio" id="saida" name="tipo_movimentacao">
-                    </div>
-                    
-                    <div class="input">
-                        <input type="text" placeholder="Categoria">
-                    </div>
-                    <div class="cadastrar">
-                        <button >Cadastrar</button>
+
+                                <input type="radio" id="saida" name="tipo_movimentacao" value="saida"> 
+                                <label for="saida">                                
+                                    <img src="./assets/outcome.svg" alt="">
+                                    <span>Saída</span>
+                                </label>
+                                                       
+                        
+                            
+                        </div>
+                        
+                        <div class="input">
+                            <input type="text" placeholder="Categoria">
+                        </div>
+                        <div >
+                            <button class="btn-cadastrar">Cadastrar</button>
+                        </div>
                     </div>
                 </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
             </div>
-            <!-- <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div> -->
-        </div>
         </div>
     </div>
 
